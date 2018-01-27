@@ -1,0 +1,20 @@
+cdn_provider: ''
+logo:
+  path: themes/laboreger/logo.png
+  url: ''
+  use_default: false
+_core:
+  default_config_hash: nPHONYnJUw1jOOG28wz4e7veulToZPjmflb_k3KMU3U
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://laboreger.dd:8088/themes/bootstrap/favicon.ico'
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+schemas:
+  bootstrap: 8000
+  laboreger: 8000

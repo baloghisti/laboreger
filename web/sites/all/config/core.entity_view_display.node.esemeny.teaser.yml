@@ -26,4 +26,6 @@ content:
     weight: 100
     region: content
 hidden:
+  field_helyszin: true
+  field_idopont: true
   langcode: true

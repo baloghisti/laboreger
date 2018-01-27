@@ -1,0 +1,26 @@
+uuid: 1ebc710c-6e02-4555-8c94-3c0d63b542a3
+langcode: hu
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - laboreger
+_core:
+  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
+id: laboreger_footer
+theme: laboreger
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Lábléc menü'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

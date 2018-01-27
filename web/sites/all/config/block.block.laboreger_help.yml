@@ -1,0 +1,22 @@
+uuid: 7c6f78fa-b6fe-4404-916a-5a76266b9c51
+langcode: hu
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - laboreger
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: laboreger_help
+theme: laboreger
+region: content
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Súgó
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 533ab5b7-c0cb-4c8f-9a50-1f5f6999324d
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - laboreger
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: laboreger_messages
+theme: laboreger
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Állapotüzenetek
+  provider: system
+  label_display: '0'
+visibility: {  }

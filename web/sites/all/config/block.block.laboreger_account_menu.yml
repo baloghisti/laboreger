@@ -1,0 +1,26 @@
+uuid: f9d291c9-c9d2-4b5e-941e-ca7809a77f90
+langcode: hu
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - laboreger
+_core:
+  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+id: laboreger_account_menu
+theme: laboreger
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Felhasználói fiók menüje'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

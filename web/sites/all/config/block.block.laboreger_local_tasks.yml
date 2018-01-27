@@ -1,0 +1,22 @@
+uuid: 9e79d273-0212-45aa-9fe9-464d82677297
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - laboreger
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: laboreger_local_tasks
+theme: laboreger
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Fülek
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

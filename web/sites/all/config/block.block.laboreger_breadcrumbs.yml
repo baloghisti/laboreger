@@ -1,0 +1,22 @@
+uuid: d69add2a-2276-4d33-899d-218ad83129fa
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - laboreger
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: laboreger_breadcrumbs
+theme: laboreger
+region: content
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Morzsák
+  provider: system
+  label_display: '0'
+visibility: {  }
