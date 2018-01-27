@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Abril Fatface";
+    color: #576F68;
+}
+
+h1.page-header {
+    border-bottom: none;
+}
+  
+.footer {
+    border-top: none;
+}
+  
+nav.tabs {
+    margin-bottom: 2em;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.navbar {
+    border: none;
+    background: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+a.navbar-brand {
+    display: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding-top: 33px;
+}

@@ -13,3 +13,6 @@
 
 # Disable the CDN provider so compiled source files can be used.
 cdn_provider: ''
+logo:
+  path: 'themes/laboreger/logo.png'
+  use_default: false
