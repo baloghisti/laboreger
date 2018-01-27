@@ -1,0 +1,22 @@
+uuid: 5d745d85-ab35-4361-abc5-ba5d995578ce
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.esemeny
+  module:
+    - text
+id: node.esemeny.body
+field_name: body
+entity_type: node
+bundle: esemeny
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

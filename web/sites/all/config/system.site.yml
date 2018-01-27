@@ -1,0 +1,14 @@
+uuid: 7e4887b0-f9ce-4a81-aa82-37a7aa482aa4
+name: Labor
+mail: info@laboreger.hu
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: hu
+default_langcode: hu
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

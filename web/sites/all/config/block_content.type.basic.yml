@@ -1,0 +1,10 @@
+uuid: 9808110f-4828-488f-8f20-75623738cdef
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zglzjmYxi0G0ag9MZ02y0LSJOdpWRwJxyP_OvFojFyo
+id: basic
+label: 'Egyszerű blokk'
+revision: 0
+description: 'Egy egyszerű, címet és törzset tartalmazó blokk.'

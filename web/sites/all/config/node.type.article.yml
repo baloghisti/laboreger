@@ -1,0 +1,13 @@
+uuid: 2a9beadc-63c7-4670-96ba-40fe7b9ba0d5
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Cikk
+type: article
+description: 'A <em>cikk</em> típust az időhöz kötött tartalmakhoz érdemes használni. Például hírek, sajtóközlemények vagy blogbejegyzések.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

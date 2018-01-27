@@ -1,0 +1,22 @@
+uuid: f471073f-1c20-4127-b286-f29eef90d3ce
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: bartik_messages
+theme: bartik
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Állapotüzenetek
+  provider: system
+  label_display: '0'
+visibility: {  }

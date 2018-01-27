@@ -1,0 +1,14 @@
+uuid: fc12829a-e40e-463c-8011-34db34acb811
+langcode: hu
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: k3aUaZXGDuhkek2TZIee0PApOPTvYZLadziekdyHA5A
+id: user_search
+label: Felhasználók
+path: user
+weight: 0
+plugin: user_search
+configuration: {  }

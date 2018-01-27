@@ -1,0 +1,10 @@
+uuid: 715b9aca-1b7a-48d7-8dd9-c07f3225675e
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M7yqicYkU36hRy5p9drAaGBBihhUD1OyujFrAaQ93ZE
+id: html_time
+label: 'HTML idő'
+locked: true
+pattern: 'H:i:s'

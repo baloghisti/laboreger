@@ -1,0 +1,10 @@
+uuid: ea27bba9-bdbf-4000-893d-9470c99cdced
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
+id: html_week
+label: 'HTML hét'
+locked: true
+pattern: Y-\WW

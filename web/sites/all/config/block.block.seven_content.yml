@@ -1,0 +1,22 @@
+uuid: 7b36c262-cc7e-489f-8dec-7e3bb01d9cd8
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
+id: seven_content
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Címlapos tartalom'
+  provider: system
+  label_display: '0'
+visibility: {  }

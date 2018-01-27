@@ -1,0 +1,21 @@
+uuid: 1b58f3e7-e2bd-46ab-aaa9-67ba07ed856d
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idopont
+    - node.type.esemeny
+  module:
+    - datetime
+id: node.esemeny.field_idopont
+field_name: field_idopont
+entity_type: node
+bundle: esemeny
+label: Időpont
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

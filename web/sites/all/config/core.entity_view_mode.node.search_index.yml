@@ -1,0 +1,12 @@
+uuid: aa477089-8d48-4257-b52d-625d67f28d18
+langcode: hu
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fVFfJv_GzBRE-wpRHbfD5a3VjnhbEOXG6lvRd3uaccY
+id: node.search_index
+label: 'Keresési index'
+targetEntityType: node
+cache: true
