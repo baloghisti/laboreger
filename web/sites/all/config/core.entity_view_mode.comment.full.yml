@@ -1,0 +1,12 @@
+uuid: e2489761-db1c-4134-8668-f402053bb934
+langcode: hu
+status: false
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: K7eNlfU7NEUajz01wItywZklr2oaPgL6s1_97fmDXLA
+id: comment.full
+label: 'Teljes hozzászólás'
+targetEntityType: comment
+cache: true

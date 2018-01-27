@@ -1,0 +1,13 @@
+uuid: 2486999f-b225-48c1-8ac3-e60f7ed127dd
+langcode: hu
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: TSkg_gUZvk-39yXFrIFnKjsxuEzO0qBH82TdDxOMMr4
+id: comment_save_action
+label: 'Hozzászólás mentése'
+type: comment
+plugin: comment_save_action
+configuration: {  }

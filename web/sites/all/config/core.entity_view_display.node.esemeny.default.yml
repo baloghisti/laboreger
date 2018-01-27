@@ -1,0 +1,47 @@
+uuid: 003e2ad3-ed17-4838-a54e-f0639293d560
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.field.node.esemeny.body
+    - field.field.node.esemeny.field_helyszin
+    - field.field.node.esemeny.field_idopont
+    - node.type.esemeny
+  module:
+    - datetime
+    - text
+    - user
+id: node.esemeny.default
+targetEntityType: node
+bundle: esemeny
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_helyszin:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_idopont:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: ab8642b0-0b47-418e-b5d7-ef59c6ddc2c6
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: bartik_content
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Címlapos tartalom'
+  provider: system
+  label_display: '0'
+visibility: {  }

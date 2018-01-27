@@ -1,0 +1,11 @@
+uuid: d6121fb2-e91c-4007-b76e-46f7b42a279c
+langcode: hu
+status: true
+dependencies:
+  config:
+    - node.type.esemeny
+id: node.esemeny
+target_entity_type_id: node
+target_bundle: esemeny
+default_langcode: site_default
+language_alterable: false

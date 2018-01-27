@@ -1,0 +1,29 @@
+uuid: da1c16d7-f45c-42d9-8874-9d539a2c7a6d
+langcode: hu
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.esemeny.body
+    - node.type.esemeny
+  module:
+    - text
+    - user
+id: node.esemeny.teaser
+targetEntityType: node
+bundle: esemeny
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
