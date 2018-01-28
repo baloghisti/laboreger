@@ -1,4 +1,4 @@
-uuid: ae03b0eb-53cd-4205-9c6c-bd1fae34cc11
+uuid: b0c644ea-e176-4614-a494-8bf6a3f7c917
 langcode: hu
 status: true
 dependencies:
@@ -6,20 +6,18 @@ dependencies:
     - system
   theme:
     - laboreger
-_core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: laboreger_branding
+id: sitebranding
 theme: laboreger
-region: navigation
-weight: -5
+region: logo
+weight: 0
 provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Webhely márkázása'
+  label: 'Site branding'
   provider: system
   label_display: '0'
   use_site_logo: true
-  use_site_name: true
-  use_site_slogan: true
+  use_site_name: false
+  use_site_slogan: false
 visibility: {  }

@@ -1,60 +1,162 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 $headings-font-weight: 100;
-$brand-primary: #576F68;
+$brand-primary: #444444;
 $gray-lighter: lighten($gray-base, 80%);
+$logo-width: 360px;
+$screen-sm: 768px !default;
+$screen-sm-min: $screen-sm !default;
+$grid-float-breakpoint: $screen-sm-min !default;
+
+body {
+  color: $brand-primary;
+  margin: 0;
+  background-color: black;
+}
+
+#toppanel {
+  background-color: black;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+#logobar {
+  display: none;
+
+  @media (min-width: $grid-float-breakpoint) {
+    display: block;
+    float: left;
+    padding: 50px 30px;
+  }
+}
+
+#outer-container {
+  background-color: white;
+}
+
+#inner-container {
+  @media (min-width: $grid-float-breakpoint) {
+    margin-left: $logo-width;
+  }
+  padding-bottom: 100px;
+}
+
+.main-container {
+  max-width: 800px;
+  margin-left: 0;
+}
+
+header.navbar {
+  border: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: none;
+
+  .navbar-header {
+    @media (min-width: $grid-float-breakpoint) {
+      display: none;
+    }
+
+      .region-logo {
+      float: left;
+      margin: 5px 0 0 10px;
+    }
+    .logo img {
+      width: 50px;
+    }
+  }
+
+  .navbar-collapse, .navbar-form {
+    border: none;
+  }
+
+  @media (min-width: $grid-float-breakpoint) {
+    height: 160px;
+  }
+
+  .menu {
+
+    @media (min-width: $grid-float-breakpoint) {
+      float: right;
+      padding-top: 40px;
+    }
+
+    li a {
+      text-decoration: none;
+      color: black;
+      margin-left: 20px;
+      padding: 5px 15px;
+      border-bottom: solid 1px black;
+      border-radius: 10px;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+
+    .active a, a.is-active {
+      background-color: black;
+      color: white;
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+
+  }
+
+}
+
+footer nav {
+  float: right;
+  .nav {
+    float: left;
+    > li > a {
+      color: white;
+      text-decoration: none;
+      font-size: 80%;
+      margin-right: 10px;
+      &:hover {
+        background: none;
+        text-decoration: underline;
+      }
+    }
+  }
+}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Abril Fatface";
-    color: $brand-primary;
+  color: $brand-primary;
 }
 
 h1.page-header {
-    border-bottom: none;
+  border-bottom: none;
 }
-  
+
 .footer {
-    border-top: none;
+  border-top: none;
+  background-color: black;
 }
-  
+
 nav.tabs {
-    margin-bottom: 2em;
-}
-
-.logo img {
-    width: 70px;
-}
-
-.navbar {
-    border: none;
-    background: none;
-    padding-left: 0px;
-    padding-right: 0px;
+  margin-bottom: 2em;
 }
 
 a {
-    color: $brand-primary;
-
+  color: $brand-primary;
+  text-decoration: underline;
 }
 
 a:hover {
-    color: darken($brand-primary, 30%);
+  color: darken($brand-primary, 30%);
 }
 
-a.navbar-brand {
-    display: none;
+.field--name-field-image {
+  margin-bottom: 20px;
 }
 
-.navbar-default .navbar-nav > li > a {
-    padding-top: 33px;
-    color: $gray-dark;
-}
-
-body {
-    color: $brand-primary;
-}
-
-.region-footer {
-    font-size: 10px;
-    color: $gray-lighter;
+article {
+  font-size: 120%;
 }

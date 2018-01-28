@@ -7,6 +7,7 @@ description: 'Labor eger téma a Bootstrap téma tetején'
 package: 'Labor'
 
 regions:
+  logo: 'Logo'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
@@ -22,3 +23,4 @@ regions:
 libraries:
   - 'laboreger/global-styling'
   - 'laboreger/bootstrap-scripts'
+  - 'laboreger/logo-animation'

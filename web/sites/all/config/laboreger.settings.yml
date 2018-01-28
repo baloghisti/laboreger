@@ -8,13 +8,28 @@ _core:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://laboreger.dd:8088/themes/bootstrap/favicon.ico'
+  url: 'http://laboreger.dd:8088/themes/laboreger/favicon.ico'
   use_default: true
+schemas:
+  bootstrap: 8000
+  laboreger: 8000
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
-schemas:
-  bootstrap: 8000
-  laboreger: 8000
+region_wells:
+  logo: ''
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
+fluid_container: 1
+table_responsive: '-1'
+table: ''
+langcode: hu

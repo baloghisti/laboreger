@@ -225,6 +225,7 @@ display:
         type: normal
         title: Események
         menu_name: main
+        weight: -48
       display_description: ''
     cache_metadata:
       max-age: -1
@@ -335,7 +336,7 @@ display:
         description: ''
         expanded: false
         parent: ''
-        weight: 0
+        weight: -47
         context: '0'
         menu_name: main
     cache_metadata:
