@@ -6424,7 +6424,6 @@ header.navbar {
     margin-left: 20px;
     padding: 5px 15px;
     border-bottom: solid 1px black;
-    border-radius: 10px;
     text-transform: uppercase; }
     header.navbar .menu li a:hover {
       background-color: black;
